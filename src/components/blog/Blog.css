@@ -1,0 +1,51 @@
+.blog-wpr{
+ margin: 0 auto;
+ max-width: 1300px;
+ padding:50px 5vw;
+ overflow-x: hidden;
+}
+.blog-wpr>h1{
+  color: #001d7a;
+  margin-bottom: 40px;
+}
+.flex-wpr{
+  display: flex;
+  overflow-x: scroll; 
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+}
+.card{
+  margin: 10px 20px;
+  width: 230px;
+  min-width: 230px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.card>img{
+  width: 230px;
+  aspect-ratio: 1;
+  object-position:cover;
+}
+.card>h4{
+  padding-top: 10px;
+  margin: 10px;
+}
+.card>p{
+  margin: 10px;
+  font-size: 14px;
+  color: gray;
+  padding-bottom: 20px;
+}
+.card>div>span{
+  background: #f4f4f4;
+  padding: 4px 6px;
+  border-radius: 100px;
+  font-size: 10px;
+}
+.card>div{
+  display: flex;
+  margin: 10px;
+  margin-top: -15px;
+}

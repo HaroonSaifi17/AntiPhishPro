@@ -44,8 +44,8 @@ box-shadow: 5px 5px 5px 5px rgb(0,0,0,0.3);
     gap: 10px;
 }
 .login-input input{
-    padding: 7px 10px;
-    height: 24px;
+    padding: 10px 10px;
+    height: 34px;
     border: 1px solid lightseagreen;
     border: 1px solid rgb(44,47,116,0.7);
     border-radius: 5px;
@@ -53,7 +53,7 @@ box-shadow: 5px 5px 5px 5px rgb(0,0,0,0.3);
 
 .signbtn button{
     margin-left: 6rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     padding: 10px 45px;
     border: none;
     background-color: rgb(44,47,116,0.6);;
@@ -75,13 +75,12 @@ box-shadow: 5px 5px 5px 5px rgb(0,0,0,0.3);
 }
 .signin-signup span{
     cursor: pointer;
-    /* color: rgb(24, 148, 142); */
     color: rgb(44,47,116,0.8);
 }
 
 .login-footer{
     display: flex;
-    margin-top: 6rem;
+    margin-top: 5rem;
     gap: 1.7rem;  
     margin-left: 6rem;
 }
