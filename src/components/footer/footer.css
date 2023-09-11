@@ -1,8 +1,9 @@
-footer{
-  padding:20px 10px;
-  background: lightgray;
+footer {
+  padding: 20px 10px;
+  background-color: rgb(153, 155, 255);
   margin-top: 20px;
 }
-footer >p{
+footer > p {
   text-align: center;
+  color: white;
 }
