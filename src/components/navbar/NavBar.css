@@ -1,0 +1,45 @@
+.nav{
+    height: 70px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px #00000029;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .titles{
+    display: flex;
+    margin-top: 1.5rem;    
+    margin-left: 24rem;
+    gap: 2rem;
+}
+.titles h3{
+    cursor: pointer;
+    font-weight: 500;
+}
+.titles h3:hover{
+    font-weight: 700;
+    color: #128fe9;
+}
+.buttons{
+    margin-right: 4rem;
+    margin-top: 1.3rem;
+}
+.buttons button{
+    margin-right: 1rem;
+    border: none;
+    font-size: 15px;
+    background-color: #035a99;
+    padding: 8px 15px;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.titles .nav-link{
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+}

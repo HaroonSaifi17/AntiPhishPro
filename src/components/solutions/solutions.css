@@ -1,0 +1,83 @@
+
+.scontainer{
+    background-color: rgb(153,155,255);
+    height: 550px;
+}
+.stitle{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+}
+
+.stitle h1{
+    margin-top: 2rem;
+}
+
+.scontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sleft{
+    margin-left: 6rem;
+}
+.sleft h2{
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+    font-weight: 600;
+}
+
+ .sleft p{
+    width: 90%;
+    align-items: flex;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+} 
+
+
+
+
+
+.sright{
+    margin-left: 6rem;
+}
+.sright h2{
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.9);
+    font-weight: 600;
+}
+
+ .sright p{
+    width: 90%;
+    align-items: flex;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 800;
+} 
+
+.pink{
+    width: 420px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 2px 2px rgb(247, 245, 245,0.7);
+}
+.yellow{
+    width: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 2px 2px rgb(247, 245, 245,0.7);
+}

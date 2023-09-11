@@ -1,0 +1,73 @@
+.usecase{
+    margin-top: 5rem;
+}
+.utitle h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0,29,122);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    font-size: 2.5rem;
+}
+.utitle p{
+    margin-top: 1rem;
+    width: 50%;
+    margin-left: 19rem;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+}
+
+.ucontent{
+    width: 100%;
+    height: 600px;
+
+}
+.udesc{
+    display: flex;
+    gap: 2rem;
+}
+.u1,.u2,.u3{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    border-radius: 15px;
+    width: 27%;
+    height: 500px;
+    background-color: rgb(153,155,255);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+}
+
+.u1 img{
+    width: 250px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 250px;
+}
+.u2 img{
+    width: 250px;
+    height: 250px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.u3 img{
+    width: 250px;
+    height: 250px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.u1 h1,.u2 h1,.u3 h1{
+    color: white;   
+    margin-left: 2.6rem;
+    margin-top: 1.5rem;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+.u1 p,.u2 p,.u3 p{
+    color: white;
+    width: 80%;
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
