@@ -3,10 +3,12 @@
  max-width: 1300px;
  padding:50px 5vw;
  overflow-x: hidden;
+  background: #f8fafc;
 }
 .blog-wpr>h1{
   color: #001d7a;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .flex-wpr{
   display: flex;
@@ -14,18 +16,22 @@
   flex-grow: 1;
   flex-shrink: 0;
   flex-wrap: nowrap;
+  gap: 30px;
+}
+.flex-wpr::-webkit-scrollbar {
+    display: none;
 }
 .card{
-  margin: 10px 20px;
+  margin: 10px 0;
   width: 230px;
   min-width: 230px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .card>img{
   width: 230px;
-  aspect-ratio: 1;
+  height: 170px;
   object-position:cover;
 }
 .card>h4{
@@ -48,4 +54,14 @@
   display: flex;
   margin: 10px;
   margin-top: -15px;
+}
+.more{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.more>span{
+  padding: 7px 10px;
+  background: lightgray;
+  border-radius: 100px;
 }

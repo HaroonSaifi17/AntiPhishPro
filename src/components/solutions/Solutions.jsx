@@ -18,6 +18,14 @@ const Solutions = () => {
                 <strong>Web Scrapper and Crawler:</strong> Monitor the web for
                 emerging phishing threats in real-time.
               </li>
+              <li>
+                <strong>User-Friendly Interface:</strong> An intuitive platform
+                that anyone can use with ease.
+              </li>
+              <li>
+                <strong>Data Privacy:</strong> Your information is always kept
+                confidential and secure.
+              </li>
             </ul>
           </div>
           <div>

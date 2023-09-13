@@ -11,61 +11,57 @@ function Blog() {
         <h1>From Our Blogs</h1>
         <div className='flex-wpr'>
           <div className='card'>
-            <img src={card1} alt='' />
+            <img src="https://todaysoftmag.com/images/articles/tsm96/large/a41.png" alt='' />
             <div>
-              <span>press</span>
+              <span>Phishing</span>
             </div>
             <h4>
-              besedo Appoints Hanna Marklund As New Chief Financial Officer
+              The Art of Phishing: How Scammers Lure You In"
             </h4>
             <p>
-              besedo Is Delighted To Announce The Appointment Of Hanna Marklund
-              As The Company's New Chief Financial Officer (CFO) Effective
-              Immediately
+              Common phishing tactics (email, social engineering, fake websites).
+Real-world examples of phishing attempts
             </p>
           </div>
           <div className='card'>
             <img src={card2} alt='' />
             <div>
-              <span>trust and safety</span>
+              <span>AI</span>
             </div>
             <h4>
-              Building Trust and Safety: Why It Matters and How to Get It Right
+              The Role of Artificial Intelligence in Phishing Defense
             </h4>
             <p>
-              Discover the Importance of Trust and Safety for Websites and Apps:
-              Learn Effective Strategies and Explore Case Studies to Ensure a
-              Secure User Experience
+              Explanation of how AI can detect and prevent phishing attacks.
+Benefits of AI-powered phishing detection
             </p>
           </div>
           <div className='card'>
             <img src={card3} alt='' />
             <div>
-              <span>sharing economy</span>
+              <span>Attacking</span>
             </div>
             <h4>
-              Sharing Economy Vs. Online Marketplaces: Key Differences and
-              Opportunities
+              Phishing Beyond Email: Exploring New Attack Vectors
             </h4>
             <p>
-              Learn the Differences Between Sharing Economy Companies and Online
-              Marketplaces, Plus a Look at Successful Sharing Economy Companies
-              and Content Moderation.
+              Beyond email phishing: SMS, voice, and social media.
+Case studies of non-email phishing attacks
             </p>
           </div>
           <div className='card'>
             <img src={card4} alt='' />
             <div>
-              <span>UGC</span>
+              <span>Trends</span>
             </div>
-            <h4>content Moderation Glossary</h4>
+            <h4>Phishing Trends in 2023: What to Watch Out For</h4>
             <p>
-              Get in the Know with Our Ultimate Glossary of Content Moderation:
-              From UGC to AI-Powered Moderation, We've Got You Covered. Learn
-              the Lingo Now!
+              Emerging tactics used by cybercriminals.
+Protective measures to adopt in light of new threats.
             </p>
           </div>
         </div>
+          <p className='more'><span>All Posts</span></p>
       </div>
     </>
   )

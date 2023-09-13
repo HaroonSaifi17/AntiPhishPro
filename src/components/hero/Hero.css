@@ -1,13 +1,15 @@
 .main-hero-wpr {
   background: #f8fafc;
+  padding-bottom: 50px;
 }
 .hero-wpr {
   margin: 0 auto;
   max-width: 1300px;
 }
 .hero-heading {
-  margin: 40px auto;
+  margin: 0 auto;
   text-align: center;
+  padding: 50px 0;
   font-weight: 600;
   color: #172554;
 }
@@ -47,8 +49,8 @@
 .hero-main {
   display: flex;
   width: 90%;
-  margin: 70px auto;
-  margin-bottom:0px ;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 .hero-main > div:nth-child(2) > img {
   margin-top: -100px;

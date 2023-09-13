@@ -1,22 +1,34 @@
-.counter{
-    width: 100%;
-    height: 170px;
-    background-color: rgb(69,120,243);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 7rem;
-    color: white;
+.ll-wpr{
+  background: #eff6ff;
+}
+.ll-wpr>div{
+ max-width: 1300px;
+ margin: 0 auto;
+ width: 90vw;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 50px 0;
 }
 
-
-.first h1,.sec h1,.third h1,.four h1{
-    font-size: 50px;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+.ll-wpr>div>h2{
+  padding-bottom: 20px;
+  color: #001d7a;
+  font-size: 35px;
 }
-.first h2,.sec h2,.third h2,.four h2{
-    font-size: 27px;
-    font-size: 300;
-    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
-
+.ll-wpr>div>p{
+  max-width: 500px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ll-wpr>div>a{
+  padding: 10px 12px;
+  color:#001d7a ;
+  border: 1px solid #001d7a;
+  border-radius: 1000px;
+}
+.ll-wpr>div>img{
+  width: 20vw;
+  mix-blend-mode: multiply;
 }

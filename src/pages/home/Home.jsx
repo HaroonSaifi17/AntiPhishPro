@@ -14,6 +14,7 @@ function Home() {
       <NavBar />
       <Hero/>
       <Solutions/>
+      <UseCase/>
       <Counter/>
       <Blog/>
       <Footer/>

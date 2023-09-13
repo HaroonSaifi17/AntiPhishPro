@@ -3,24 +3,16 @@ import './counter.css'
 
 const Counter = () => {
   return (
-    <div className='counter'>
-        <div className="first">
-            <h1>500+</h1>
-            <h2>Clients</h2>
+    <>
+      <div className='ll-wpr'>
+        <div>
+          <h2>Report: Directly to Government</h2>
+          <img src='https://cdn.dribbble.com/users/1067746/screenshots/6002017/complaint_4x.jpg'></img>
+    <p>If you encounter a phishing attempt or suspect a fraudulent website, please report it immediately to the relevant authorities. Your action helps protect others from falling victim to scams.</p>
+<a>Report</a>
         </div>
-        <div className="sec">
-            <h1>25+</h1>
-            <h2>Countries</h2>
-        </div>
-        <div className="third">
-            <h1>83%</h1>
-            <h2>Repeat Business</h2>
-        </div>
-        <div className="four">
-            <h1>2500+</h1>
-            <h2>Hours of Code</h2>
-        </div>
-    </div>
+      </div>
+    </>
   )
 }
 
