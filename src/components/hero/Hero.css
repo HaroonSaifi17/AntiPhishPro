@@ -1,87 +1,96 @@
-.hero-wpr{
- margin: 0 auto;
- max-width: 1300px;
+.main-hero-wpr {
+  background: #f8fafc;
+}
+.hero-wpr {
+  margin: 0 auto;
+  max-width: 1300px;
 }
 .hero-heading {
   margin: 40px auto;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
+  color: #172554;
 }
-.search-wpr{
+.search-wpr {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.search-button{
+.search-button {
   font-size: 12px;
   margin-bottom: 15px;
   color: #899aad;
 }
-.search-button>a{
+.search-button > a {
   padding: 7px;
 }
-.search-button>a:nth-child(1){
-  color: #5145F2;
-  border: 1px solid #d3e1f9;
+.search-button > a:nth-child(1) {
+  color: #8b5cf6;
+  border: 2px solid #d3e1f9;
   border-bottom: none;
 }
-.search >span>input{
-  max-width: 700px ;
+.search > span > input {
+  max-width: 700px;
   width: 40vw;
   padding: 10px;
-  border: 1px solid #d3e1f9;
+  border: 2px solid #d3e1f9;
+  background: #f8fafc;
 }
-.search>a{
+.search > a {
   padding: 10px;
   background: #cccccc;
 }
-.search>a:nth-child(2){
-  background: #4479f3;
+.search > a:nth-child(2) {
+  background: #172554;
   color: white;
 }
-.hero-main{
+.hero-main {
   display: flex;
   width: 90%;
   margin: 70px auto;
+  margin-bottom:0px ;
 }
-.hero-main>div:nth-child(2)>img{
- width: 40vw;
- max-width: 500px;
+.hero-main > div:nth-child(2) > img {
+  margin-top: -100px;
+  width: 40vw;
+  max-width: 500px;
+  mix-blend-mode: multiply;
+  object-fit: cover;
 }
-.hero-main>div:nth-child(1){
+.hero-main > div:nth-child(1) {
   margin-right: 50px;
   margin-bottom: 30px;
 }
-.hero-main>div:nth-child(1)>h1{
+.hero-main > div:nth-child(1) > h1 {
   color: #001d7a;
   margin-bottom: 20px;
 }
-.hero-main>div:nth-child(1)>p{
+.hero-main > div:nth-child(1) > p {
   font-weight: 500;
   margin-bottom: 30px;
   line-height: 24px;
+  color: gray;
 }
-.hero-button1{
-  padding:7px 10px;
+.hero-button1 {
+  padding: 7px 10px;
   border-radius: 50px;
   color: white;
-  background: #4479f3;
+  background: #8b5cf6;
   margin-right: 10px;
 }
-.hero-button2{
-  padding:7px 10px;
+.hero-button2 {
+  padding: 7px 10px;
   border-radius: 50px;
-  border: 1px solid #4479f3;
-  color: #4479f3;
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
   background: white;
 }
-@media(max-width:750px){
-.hero-main{
-  flex-direction: column;
-  align-items: center;
-}
-.hero-main>div:nth-child(2)>img{
- width: 80vw;
-}
-
+@media (max-width: 750px) {
+  .hero-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-main > div:nth-child(2) > img {
+    width: 80vw;
+  }
 }

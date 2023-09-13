@@ -1,45 +1,33 @@
-.nav{
-    height: 70px;
-    background-color: white;
-    box-shadow: 2px 2px 2px 2px #00000029;
+.nav-wpr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 15px 20px;
 }
-
-.container{
-    display: flex;
-    justify-content: space-between;
+.wpr-main {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-
-.container .titles{
-    display: flex;
-    margin-top: 1.5rem;    
-    margin-left: 24rem;
-    gap: 2rem;
+.logo > a > span {
+  padding: 5px;
 }
-.titles h3{
-    cursor: pointer;
-    font-weight: 500;
+.logo > a > i {
+  color: #8b5cf6;
 }
-.titles h3:hover{
-    font-weight: 700;
-    color: #128fe9;
+.list > ul > li > a {
+  padding: 5px;
 }
-.buttons{
-    margin-right: 4rem;
-    margin-top: 1.3rem;
+.list > ul > li > a:nth-child(1) {
+  color: #8b5cf6;
 }
-.buttons button{
-    margin-right: 1rem;
-    border: none;
-    font-size: 15px;
-    background-color: #035a99;
-    padding: 8px 15px;
-    border-radius: 15px;
-    color: white;
-    cursor: pointer;
-    font-weight: 600;
+.list > ul {
+  list-style: none;
 }
-.titles .nav-link{
-    color: inherit;
-    list-style: none;
-    text-decoration: none;
+.login-wpr > a {
+  padding: 7px 10px;
+  border-radius: 100px;
+  color: white;
+  background: #172554;
+  margin: 5px;
 }

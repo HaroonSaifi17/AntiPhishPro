@@ -1,38 +1,37 @@
-
-import "./NavBar.css";
-import { Link,useNavigate } from "react-router-dom";
+import './NavBar.css'
+import { Link, useNavigate } from 'react-router-dom'
 
 function NavBar() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   return (
     <>
-      <div className="nav">
-        <div className="container">
-          <div className="titles">
-            <Link to="/" className='nav-link'>
-              <h3>Solutions</h3>
-            </Link>
-            <Link to="/" className='nav-link'>
-              <h3>Use Cases</h3>
-            </Link>
-            <Link to="/" className='nav-link'>
-              <h3>Blog</h3>
-            </Link>
-            <Link to="/" className='nav-link'>
-              <h3>Offers</h3>
-            </Link>
-            <Link to="/" className='nav-link'>
-              <h3>Resources</h3>
-            </Link>
-          </div>
-          <div className="buttons">
-            <button onClick={()=>navigate('/signup')}>Sign Up</button>
-            <button onClick={()=>navigate('/login')}>Login</button>
-          </div>
+    <div className='wpr-main'>
+      <div className='nav-wpr'>
+        <div className="logo">
+          <a>
+            <i className='fa-solid fa-shield-virus'></i>
+            <span>AntiPhishPro</span>
+          </a>
+        </div>
+        <div className='list'>
+          <ul>
+            <li>
+              <a>Home</a>
+              <a>Blog</a>
+              <a>Tools</a>
+              <a>Contact</a>
+              <a>Community</a>
+            </li>
+          </ul>
+        </div>
+        <div className='login-wpr'>
+          <a onClick={()=>{navigate('/signup')}}>Sign Up</a>
+          <a onClick={()=>{navigate('/login')}}>Login</a>
         </div>
       </div>
+    </div>
     </>
-  );
+  )
 }
 
-export default NavBar;
+export default NavBar

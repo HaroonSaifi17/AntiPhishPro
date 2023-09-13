@@ -1,29 +1,49 @@
 import React from 'react'
 import './solutions.css'
-import pink from '../../assets/promo-reports-pink.webp'
-import yellow from '../../assets/promo-ugc-yellow.webp'
 
 const Solutions = () => {
   return (
-    <div className='solution'>
-        <div className="scontainer">
-        <div className="stitle">
-            <h1>Solutions</h1>
+    <>
+      <div className='s-wpr'>
+        <div>
+          <div>
+            <h2>Product Overview</h2>
+            <p>At AntiPhishPro, we use AI to protect your online experience:</p>
+            <ul>
+              <li>
+                <strong>Phishing Detection with AI:</strong> Instantly analyze
+                URLs to detect potential phishing threats.
+              </li>
+              <li>
+                <strong>Web Scrapper and Crawler:</strong> Monitor the web for
+                emerging phishing threats in real-time.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Use Cases</h2>
+            <ul>
+              <li>
+                <strong>Individual Users:</strong> Personal online protection
+                against phishing attacks.
+              </li>
+              <li>
+                <strong>Businesses:</strong> Integrated cybersecurity for
+                employees and clients.
+              </li>
+              <li>
+                <strong>Educational Institutions:</strong> Secure learning
+                environments for students and staff.
+              </li>
+              <li>
+                <strong>Government Agencies:</strong> National security through
+                enhanced cybersecurity.
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className='scontent'>
-            <div className="sleft">
-                <img className='pink' src={yellow} alt="" />
-                <h2>All content moderated</h2>
-                <p>When handling user-created materials overnight is crucial. Create a remarkable platform for your users - relevant to sectors like gaming,dating, sharing economy, marketplace, communications and various other application</p>
-            </div>
-            <div className="sright">
-            <img className='yellow' src={pink} alt="" />
-                <h2>Reports & analytics built in</h2>
-                <p>Gain insights to operate,expand, and comprehend your enterprise.Export data straight from Beside right to your email.Now you can produce executive-grade analyses with performance indicators for all your user-generated and content</p>
-            </div>
-            </div>
-        </div>
-    </div>
+      </div>
+    </>
   )
 }
 
