@@ -25,9 +25,9 @@ function Footer() {
           </div>
         </div>
         <div className='icons'>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-whatsapp"></i>
-          <i class="fa-brands fa-linkedin"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-whatsapp"></i>
+          <i className="fa-brands fa-linkedin"></i>
         </div>
         <p>&copy; 2023 AntiPhishPro. All rights reserved.</p>
       </footer>

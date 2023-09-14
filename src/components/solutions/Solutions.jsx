@@ -8,7 +8,6 @@ const Solutions = () => {
         <div>
           <div>
             <h2>Product Overview</h2>
-            <p>At AntiPhishPro, we use AI to protect your online experience:</p>
             <ul>
               <li>
                 <strong>Phishing Detection with AI:</strong> Instantly analyze
