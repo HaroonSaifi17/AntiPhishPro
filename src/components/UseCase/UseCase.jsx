@@ -11,12 +11,28 @@ const UseCase = () => {
           <div className='ssw'>
             <h1>Solutions</h1>
             <p>
-              AntiPhishPro is the ultimate defense against the rising
-              tide of phishing attacks. Our state-of-the-art AI models analyze
-              URLs in real-time, providing instant protection from fraudulent
-              websites. We go beyond email phishing, covering SMS, social media,
-              and voice-based threats.
+              AntiPhishPro is the ultimate defense against the rising tide of
+              phishing attacks. Our state-of-the-art AI models analyze URLs in
+              real-time, providing instant protection from fraudulent websites.
+              We go beyond email phishing, covering SMS, social media, and
+              voice-based threats.
             </p>
+          </div>
+        </div>
+      </div>
+      <div className='kk-wpr'>
+        <div className='data-facts'>
+          <div className='fact'>
+            <span className='count'>100+</span>
+            <p>Websites Protected</p>
+          </div>
+          <div className='fact'>
+            <span className='count'>95%</span>
+            <p>Phishing Attempts Detected</p>
+          </div>
+          <div className='fact'>
+            <span className='count'>20k+</span>
+            <p>Users Educated</p>
           </div>
         </div>
       </div>

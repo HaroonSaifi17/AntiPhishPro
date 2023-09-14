@@ -23,3 +23,22 @@
   background: #f8fafc;
   color: #374151;
 }
+.data-facts{
+  display: flex;
+  justify-content: space-around;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 90vw;
+  padding: 30px 0;
+}
+.kk-wpr{
+  background: #172554;
+  color:lightgray;
+  font-weight: 600;
+  text-align: center;
+}
+.count{
+  font-size: 28px;
+  color: white;
+  padding: 5px 0;
+}
