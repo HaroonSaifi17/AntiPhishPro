@@ -7,7 +7,7 @@ import card4 from '../../assets/card4.webp'
 function Blog() {
   return (
     <>
-      <div className='x-wpr'>
+      <div id='blog' className='x-wpr'>
         <div className='blog-wpr'>
           <h1>From Our Blogs</h1>
           <div className='flex-wpr'>
@@ -56,6 +56,20 @@ function Blog() {
               <p>
                 Emerging tactics used by cybercriminals. Protective measures to
                 adopt in light of new threats.
+              </p>
+            </div>
+            <div className='card'>
+              <img
+                src='https://todaysoftmag.com/images/articles/tsm96/large/a41.png'
+                alt=''
+              />
+              <div>
+                <span>Phishing</span>
+              </div>
+              <h4>The Art of Phishing: How Scammers Lure You In"</h4>
+              <p>
+                Common phishing tactics (email, social engineering, fake
+                websites). Real-world examples of phishing attempts
               </p>
             </div>
           </div>

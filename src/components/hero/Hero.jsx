@@ -1,10 +1,11 @@
 import './Hero.css'
-
 import myPhoto from '../../assets/hero-g3.jpg'
+import { useNavigate } from 'react-router-dom'
 function Hero() {
+  const navigate = useNavigate()
   return (
     <>
-      <div className='main-hero-wpr'>
+      <div id='Home' className='main-hero-wpr'>
         <div className='hero-wpr'>
           <h2 className='hero-heading'>
             Secure Your Link: Before You Click, Let AI Verify.
@@ -19,7 +20,7 @@ function Hero() {
                 <span>
                   <input type='text' />
                 </span>
-                <a>SCAN</a>
+                <a onClick={()=> navigate('/results')}>SCAN</a>
                 <a>
                   <i className='fa-solid fa-gear'></i>
                 </a>

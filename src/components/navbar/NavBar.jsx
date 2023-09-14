@@ -16,11 +16,11 @@ function NavBar() {
         <div className='list'>
           <ul>
             <li>
-              <a>Home</a>
-              <a>Blog</a>
-              <a>Tools</a>
-              <a>Contact</a>
+              <a href='#Home'>Home</a>
+              <a href='#Solution'>Solutions</a>
+              <a href='#Reports'>Reports</a>
               <a>Community</a>
+              <a href='#blog'>Blog</a>
             </li>
           </ul>
         </div>

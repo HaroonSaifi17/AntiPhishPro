@@ -4,7 +4,7 @@ import './solutions.css'
 const Solutions = () => {
   return (
     <>
-      <div className='s-wpr'>
+      <div  className='s-wpr'>
         <div>
           <div>
             <h2>Product Overview</h2>
@@ -14,7 +14,7 @@ const Solutions = () => {
                 URLs to detect potential phishing threats.
               </li>
               <li>
-                <strong>Web Scrapper and Crawler:</strong> Monitor the web for
+                <strong>Web Scrapper:</strong> Monitor the web for
                 emerging phishing threats in real-time.
               </li>
               <li>

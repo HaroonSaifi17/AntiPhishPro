@@ -3,7 +3,7 @@ import './useCase.css'
 const UseCase = () => {
   return (
     <>
-      <div className='m-wpr'>
+      <div id='Solution' className='m-wpr'>
         <div>
           <div className='img-wpr'>
             <img src='https://static.vecteezy.com/system/resources/previews/001/871/333/large_2x/illustration-of-solve-problems-and-find-solutions-with-teamwork-share-ideas-with-brainstorming-graphic-design-for-landing-page-web-website-mobile-apps-banner-template-poster-flyer-free-vector.jpg'></img>

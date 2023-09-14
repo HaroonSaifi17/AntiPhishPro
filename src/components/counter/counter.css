@@ -28,6 +28,10 @@
   border: 1px solid #001d7a;
   border-radius: 1000px;
 }
+.ll-wpr>div>a:hover{
+  background:#001d7a ;
+  color: white;
+}
 .ll-wpr>div>img{
   width: 20vw;
   mix-blend-mode: multiply;

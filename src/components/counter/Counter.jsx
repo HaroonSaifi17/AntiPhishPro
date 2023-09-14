@@ -4,7 +4,7 @@ import './counter.css'
 const Counter = () => {
   return (
     <>
-      <div className='ll-wpr'>
+      <div id='Reports' className='ll-wpr'>
         <div>
           <h2>Report: Directly to Government</h2>
           <img src='https://cdn.dribbble.com/users/1067746/screenshots/6002017/complaint_4x.jpg'></img>

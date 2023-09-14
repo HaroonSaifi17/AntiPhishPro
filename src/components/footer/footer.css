@@ -24,6 +24,7 @@ footer>div{
 .icons > i {
   padding: 10px 5px;
   margin: 0 5px;
+  cursor: pointer;
 }
 .flex2>div{
   display: flex;

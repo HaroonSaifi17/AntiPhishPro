@@ -17,8 +17,11 @@
 }
 .list > ul > li > a {
   padding: 5px;
+  text-decoration: none;
+  color: inherit;
+
 }
-.list > ul > li > a:nth-child(1) {
+.list > ul > li > a:hover {
   color: #8b5cf6;
 }
 .list > ul {

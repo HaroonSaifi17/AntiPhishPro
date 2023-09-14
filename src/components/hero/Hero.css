@@ -22,6 +22,7 @@
   font-size: 12px;
   margin-bottom: 15px;
   color: #899aad;
+  z-index: 100;
 }
 .search-button > a {
   padding: 7px;
@@ -45,6 +46,10 @@
 .search > a:nth-child(2) {
   background: #172554;
   color: white;
+  cursor: pointer;
+}
+.search > a:nth-child(2):hover {
+  background: #4b68c9;
 }
 .hero-main {
   display: flex;
@@ -53,11 +58,12 @@
   padding-top: 50px;
 }
 .hero-main > div:nth-child(2) > img {
-  margin-top: -100px;
+  margin-top: -40px;
   width: 40vw;
   max-width: 500px;
   mix-blend-mode: multiply;
   object-fit: cover;
+  z-index: -1;
 }
 .hero-main > div:nth-child(1) {
   margin-right: 50px;
@@ -79,6 +85,10 @@
   color: white;
   background: #8b5cf6;
   margin-right: 10px;
+
+}
+.hero-button1:hover {
+  background: #001d7a;
 }
 .hero-button2 {
   padding: 7px 10px;
